@@ -9,18 +9,7 @@ public class StringConvert {
 	public static Integer toInteger(String s) {
 		return Integer.valueOf(s);
 	}
-	public static long toLong(String s) {
-		return Long.parseLong(s);
-	}
-	public static Long toLong(String s) {
-		return Long.valueOf(s);
-	}
-	public static double toDouble(String s) {
-		return Double.parseDouble(s);
-	}
-	public static Double toDouble(String s) {
-		return Double.valueOf(s);
-	}
+	
 	public static char[] toCharArray(String s) {
 		return s.toCharArray();
 	}
@@ -44,7 +33,7 @@ public class StringConvert {
 		String s = "1";
 		System.out.println("To primitve Int : " +toInt(s));
 		System.out.println("To Integer Wrapper type : " +toInteger(s));
-		System.out.println("To primitve Long : " +toLong(s));
+		
 		
 		
 

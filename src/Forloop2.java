@@ -21,7 +21,7 @@ public class Forloop2 {
 		}
 		if (isPrime)
 		{
-			System.out.println("Prime number");
+			System.out.println("Prime number - " +num);
 		}
 		else
 			System.out.println("Not Prime number");
